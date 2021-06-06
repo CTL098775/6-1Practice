@@ -9,6 +9,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <asp:DropDownList ID="ddl_Area" AutoPostBack="true"  runat="server"></asp:DropDownList><br />
+        <asp:DropDownList ID="ddl_Place" runat="server"></asp:DropDownList>
         <div>
         </div>
     </form>
